@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/logo.jpg" alt="Vice Craft" width="460"></p>
+<p align="center"><img src="docs/images/pfp.jpg" alt="Vice Craft" width="320"></p>
 
 <p align="center"><b>A blocky multiplayer open world in your browser.</b><br>Drive, run heists and race with friends across Leonia, a block-by-block Miami.</p>
 
