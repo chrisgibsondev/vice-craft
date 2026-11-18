@@ -1,0 +1,30 @@
+# Render blueprint for the VICE CRAFT game server (WebSockets + REST).
+# The browser client is hosted separately on Vercel; set ALLOWED_ORIGINS to its URL
+# and set VITE_SERVER_URL on the Vercel project to this service's https URL.
+services:
+  - type: web
+    name: blockshore-server
+    runtime: node
+    plan: starter            # $7/month, 0.5 CPU, 512 MB, always on (free: 0.1 CPU, sleeps after 15 min idle)
+    buildCommand: npm install --include=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: TRUST_PROXY
+        value: "1"
+      - key: BLOCKSHORE_CHUNK_CACHE_MB
+        value: "96"          # 512 MB instance: keep the voxel cache small
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=380
+      - key: DATABASE_URL
+        sync: false          # managed PostgreSQL connection string (Neon / Render Postgres)
+      - key: ALLOWED_ORIGINS
+        sync: false          # comma-separated, `*` allowed in the host, e.g. https://your-game.vercel.app,https://your-game-*.vercel.app
+      - key: ALLOWED_ORIGINS_EXTRA   # added to ALLOWED_ORIGINS: every Vercel address of this project
+        value: https://your-game.vercel.app
+      - key: ADMIN_USERS
+        sync: false

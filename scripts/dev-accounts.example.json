@@ -1,0 +1,7 @@
+{
+  "_comment": "Local development test accounts used for browser playtests (dev server only, never production).",
+  "accounts": [
+    { "username": "tester_one", "password": "palmara-dev-pass-1" },
+    { "username": "tester_two", "password": "palmara-dev-pass-2" }
+  ]
+}

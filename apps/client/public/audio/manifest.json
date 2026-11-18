@@ -1,0 +1,1405 @@
+{
+  "provider": "Epidemic Sound",
+  "note": "Loops (engine_*, siren, alarm, drill, wind, city_ambience, waves, wetland_ambience, club_bass, swim) were self-crossfaded for seamless looping; music trimmed to <=180s with 3s fade-out; step_* are short multi-step clips.",
+  "music": [
+    {
+      "id": "menu",
+      "file": "audio/music/menu.mp3",
+      "title": "Polygon",
+      "artist": "Ben Elson",
+      "epidemicId": "68c580ab-d2d6-446c-8bc4-c0ef02c76c91",
+      "loop": true,
+      "volume": 0.5,
+      "durationSec": 177.6
+    },
+    {
+      "id": "roam_1",
+      "file": "audio/music/roam_1.mp3",
+      "title": "Anticipation",
+      "artist": "Future Joust",
+      "epidemicId": "0ce598ea-3ad6-39a8-a8d1-282bc9eba991",
+      "loop": true,
+      "volume": 0.45,
+      "durationSec": 180
+    },
+    {
+      "id": "roam_2",
+      "file": "audio/music/roam_2.mp3",
+      "title": "Celestial Bodies (Instrumental Version)",
+      "artist": "Celesy",
+      "epidemicId": "90a06b53-e600-3f34-bfea-b3f9ea8ad0d2",
+      "loop": true,
+      "volume": 0.45,
+      "durationSec": 180
+    },
+    {
+      "id": "roam_3",
+      "file": "audio/music/roam_3.mp3",
+      "title": "Airplane Mode (Instrumental Version)",
+      "artist": "Tilden Parc",
+      "epidemicId": "8175ca57-b035-3b9b-a19c-faa6853115ef",
+      "loop": true,
+      "volume": 0.45,
+      "durationSec": 180
+    },
+    {
+      "id": "roam_4",
+      "file": "audio/music/roam_4.mp3",
+      "title": "Groove Me Up",
+      "artist": "Glove Box",
+      "epidemicId": "d355e351-8f31-35f3-9317-206719ce961e",
+      "loop": true,
+      "volume": 0.45,
+      "durationSec": 130.6
+    },
+    {
+      "id": "heist_plan",
+      "file": "audio/music/heist_plan.mp3",
+      "title": "Straight Flush",
+      "artist": "Isaac Larson",
+      "epidemicId": "510ec593-4577-31d2-8145-c2b0387616c8",
+      "loop": true,
+      "volume": 0.4,
+      "durationSec": 116.8
+    },
+    {
+      "id": "heist_action",
+      "file": "audio/music/heist_action.mp3",
+      "title": "One Minute Countdown",
+      "artist": "V.V. Campos",
+      "epidemicId": "181a9822-b541-3909-a7be-8515b67f00c7",
+      "loop": true,
+      "volume": 0.5,
+      "durationSec": 111.4
+    },
+    {
+      "id": "chase",
+      "file": "audio/music/chase.mp3",
+      "title": "Trapped in Confusion",
+      "artist": "Eludent",
+      "epidemicId": "1daca928-d41a-3643-b3c8-1c78c1f3eae5",
+      "loop": true,
+      "volume": 0.5,
+      "durationSec": 110.9
+    },
+    {
+      "id": "race",
+      "file": "audio/music/race.mp3",
+      "title": "chess",
+      "artist": "dreem",
+      "epidemicId": "fa15a305-be6e-4d84-b0c9-b440c1967a24",
+      "loop": true,
+      "volume": 0.5,
+      "durationSec": 164.8
+    },
+    {
+      "id": "cutscene",
+      "file": "audio/music/cutscene.mp3",
+      "title": "The Quiet Hours",
+      "artist": "Trevor Kowalski",
+      "epidemicId": "7f8ff317-6bd3-4568-b967-f3fe62ffc554",
+      "loop": false,
+      "volume": 0.5,
+      "durationSec": 176.7
+    }
+  ],
+  "sfx": [
+    {
+      "id": "step_grass",
+      "file": "audio/sfx/step_grass.mp3",
+      "title": "Footsteps, Human, Grass",
+      "epidemicId": "07c9fc27-ea25-4640-b83d-6bcc886c66f4",
+      "loop": false,
+      "volume": 0.403,
+      "durationSec": 2.5
+    },
+    {
+      "id": "step_concrete",
+      "file": "audio/sfx/step_concrete.mp3",
+      "title": "Footsteps, Human, Heels, Walking, Concrete 01",
+      "epidemicId": "0bbd4718-2849-4d4f-ad62-138015b9b631",
+      "loop": false,
+      "volume": 0.661,
+      "durationSec": 2.5
+    },
+    {
+      "id": "step_wood",
+      "file": "audio/sfx/step_wood.mp3",
+      "title": "Footsteps, Human, Wood, Run",
+      "epidemicId": "e19e5f89-2064-4f83-89b2-579606927ff8",
+      "loop": false,
+      "volume": 0.55,
+      "durationSec": 2.5
+    },
+    {
+      "id": "step_sand",
+      "file": "audio/sfx/step_sand.mp3",
+      "title": "Footsteps, Human, Grit, Gravel Path (used as sand)",
+      "epidemicId": "6886a2b9-5666-4e4f-8e64-4800862b2c27",
+      "loop": false,
+      "volume": 0.32,
+      "durationSec": 2.5
+    },
+    {
+      "id": "jump",
+      "file": "audio/sfx/jump.mp3",
+      "title": "Swooshes, Whoosh, Short, Deep Reversed, Dry",
+      "epidemicId": "14f0f3a4-cc2b-4d8b-b453-49fd070c591d",
+      "loop": false,
+      "volume": 1.428,
+      "durationSec": 0.88
+    },
+    {
+      "id": "land",
+      "file": "audio/sfx/land.mp3",
+      "title": "Footsteps, Human, Feet, Land, Jump, Ground",
+      "epidemicId": "b9b83e68-b668-4e85-9531-2c566cffba89",
+      "loop": false,
+      "volume": 2.094,
+      "durationSec": 0.71
+    },
+    {
+      "id": "splash",
+      "file": "audio/sfx/splash.mp3",
+      "title": "Water, Splash, Deep, Splosh, Lake",
+      "epidemicId": "57b935c7-5a60-43cd-882e-b5afd4849f0d",
+      "loop": false,
+      "volume": 1.745,
+      "durationSec": 1.45
+    },
+    {
+      "id": "swim",
+      "file": "audio/sfx/swim.mp3",
+      "title": "Sports, Water, Swimming, Swimmer Butterfly Stroke, Water Splash 01",
+      "epidemicId": "e7deadec-3dbf-4bee-bed9-2d39a87208ad",
+      "loop": true,
+      "volume": 1.086,
+      "durationSec": 9
+    },
+    {
+      "id": "engine_car",
+      "file": "audio/sfx/engine_car.mp3",
+      "title": "Vehicles, Car, Engine, Idle, Loop",
+      "epidemicId": "2d6d7636-b006-4cc2-bc71-9e37dac97177",
+      "loop": true,
+      "volume": 1.386,
+      "durationSec": 12
+    },
+    {
+      "id": "engine_sports",
+      "file": "audio/sfx/engine_sports.mp3",
+      "title": "Vehicles, Car, Passby Revs (sports car)",
+      "epidemicId": "6566e769-147c-49de-8544-ad8ff75975dd",
+      "loop": true,
+      "volume": 1.573,
+      "durationSec": 11
+    },
+    {
+      "id": "engine_moto",
+      "file": "audio/sfx/engine_moto.mp3",
+      "title": "Vehicles, Motorcycle, Cruiser, Engine Perspective",
+      "epidemicId": "7cbe4173-68e0-4ad6-84ae-fa5f5bfbe9ca",
+      "loop": true,
+      "volume": 1.402,
+      "durationSec": 12
+    },
+    {
+      "id": "engine_boat",
+      "file": "audio/sfx/engine_boat.mp3",
+      "title": "Boats, Motorboat, High, Medium Speed, Close To Engine",
+      "epidemicId": "b910dd46-d013-493f-8855-f8e8a55e2c94",
+      "loop": true,
+      "volume": 1.25,
+      "durationSec": 17
+    },
+    {
+      "id": "horn",
+      "file": "audio/sfx/horn.mp3",
+      "title": "Vehicles, Horn, Car, Honk, Double Tap",
+      "epidemicId": "2ec38f86-b210-4ffb-b08d-0e8a5b8e3902",
+      "loop": false,
+      "volume": 1.382,
+      "durationSec": 1.02
+    },
+    {
+      "id": "car_door",
+      "file": "audio/sfx/car_door.mp3",
+      "title": "Vehicles, Door, Car, Close, Hard, External",
+      "epidemicId": "05b1bd38-299d-451d-a394-909e672cf764",
+      "loop": false,
+      "volume": 1.148,
+      "durationSec": 0.49
+    },
+    {
+      "id": "door_open",
+      "file": "audio/sfx/door_open.mp3",
+      "title": "Doors, Wood, Back Door, Open Light, Squeak",
+      "epidemicId": "bb0b9c55-49ab-4c8a-9cbb-6d080cadda3c",
+      "loop": false,
+      "volume": 0.944,
+      "durationSec": 3
+    },
+    {
+      "id": "door_close",
+      "file": "audio/sfx/door_close.mp3",
+      "title": "Doors, Wood, Perspective, Close, Slam Door",
+      "epidemicId": "1825da0b-005f-47bd-ba45-6751e2ac7a8b",
+      "loop": false,
+      "volume": 0.638,
+      "durationSec": 2.95
+    },
+    {
+      "id": "crash",
+      "file": "audio/sfx/crash.mp3",
+      "title": "Destruction, Crash & Debris, Car Crash, Heavy 05",
+      "epidemicId": "5dd198b7-83d6-4294-9359-0b9ab7309655",
+      "loop": false,
+      "volume": 2.074,
+      "durationSec": 3
+    },
+    {
+      "id": "tire_screech",
+      "file": "audio/sfx/tire_screech.mp3",
+      "title": "Vehicles, Skid, Drive, Slip, Tire, Drift, Screech 01",
+      "epidemicId": "5385827d-b4d8-444f-a09c-e2ca8c6734d8",
+      "loop": false,
+      "volume": 1.236,
+      "durationSec": 3
+    },
+    {
+      "id": "ui_click",
+      "file": "audio/sfx/ui_click.mp3",
+      "title": "User Interface, Click, UI Buttons, Type, Zap",
+      "epidemicId": "326f0f67-5371-452f-aec4-65f1c0a654b0",
+      "loop": false,
+      "volume": 0.911,
+      "durationSec": 0.23
+    },
+    {
+      "id": "ui_hover",
+      "file": "audio/sfx/ui_hover.mp3",
+      "title": "User Interface, Click, UI Buttons, Bubbly, Option",
+      "epidemicId": "19edc18a-387f-4987-9110-75d1abecc3fa",
+      "loop": false,
+      "volume": 0.863,
+      "durationSec": 0.26
+    },
+    {
+      "id": "cash",
+      "file": "audio/sfx/cash.mp3",
+      "title": "Cash Register, Kaching, Money",
+      "epidemicId": "6caad476-d3e4-44ad-afa1-1e9187c46bd0",
+      "loop": false,
+      "volume": 0.759,
+      "durationSec": 2.25
+    },
+    {
+      "id": "checkpoint",
+      "file": "audio/sfx/checkpoint.mp3",
+      "title": "User Interface, Alert, Notification, Checkpoint, Positive, Video Game 02",
+      "epidemicId": "0cf8879c-f1c4-49dd-aab6-6b4abda11471",
+      "loop": false,
+      "volume": 0.841,
+      "durationSec": 1.83
+    },
+    {
+      "id": "phone_ring",
+      "file": "audio/sfx/phone_ring.mp3",
+      "title": "Communications, Cellphone, Ringtone, Double Ringing 04",
+      "epidemicId": "3422b8b1-a49c-4192-b8a3-2dcc73acb2ae",
+      "loop": true,
+      "volume": 0.661,
+      "durationSec": 7.63
+    },
+    {
+      "id": "notify",
+      "file": "audio/sfx/notify.mp3",
+      "title": "User Interface, Alert, Notifications, Notification, Ping, Gentle",
+      "epidemicId": "8a7d530f-08e5-40d6-a970-cacf26b52c10",
+      "loop": false,
+      "volume": 0.75,
+      "durationSec": 0.8
+    },
+    {
+      "id": "siren",
+      "file": "audio/sfx/siren.mp3",
+      "title": "Vehicles, Siren, Police Siren Wail, Long",
+      "epidemicId": "a0dce674-e161-4b18-af5f-e1ad3b7f8230",
+      "loop": true,
+      "volume": 1.53,
+      "durationSec": 19
+    },
+    {
+      "id": "alarm",
+      "file": "audio/sfx/alarm.mp3",
+      "title": "Alarms, Bell, Emergency, Ring, Fast, Looped, Synthesized",
+      "epidemicId": "8409d22c-9aa3-4e99-a9f7-1642a38c1d53",
+      "loop": true,
+      "volume": 2.228,
+      "durationSec": 10.5
+    },
+    {
+      "id": "drill",
+      "file": "audio/sfx/drill.mp3",
+      "title": "Tools, Power, Drill, Cordless, Drilling Screw Into Wooden Sleeper 03",
+      "epidemicId": "91091802-ee95-4eee-9fb0-83ba8173c673",
+      "loop": true,
+      "volume": 0.832,
+      "durationSec": 7.5
+    },
+    {
+      "id": "safe_open",
+      "file": "audio/sfx/safe_open.mp3",
+      "title": "Doors, Metal, Safe, Electronic, Digital, Open 02",
+      "epidemicId": "4bd430ed-bd05-4727-816b-3330123cdd4d",
+      "loop": false,
+      "volume": 0.944,
+      "durationSec": 3
+    },
+    {
+      "id": "pistol",
+      "file": "audio/sfx/pistol.mp3",
+      "title": "Guns, Pistol, Gunshot, Exterior 01",
+      "epidemicId": "beff3f92-5d57-40de-a320-f4ffe287b429",
+      "loop": false,
+      "volume": 2.321,
+      "durationSec": 1.28
+    },
+    {
+      "id": "hit",
+      "file": "audio/sfx/hit.mp3",
+      "title": "Fight, Impact, Punch Flesh",
+      "epidemicId": "ae96ec84-ddd4-448a-880b-d168114e0afa",
+      "loop": false,
+      "volume": 3.0,
+      "durationSec": 0.49
+    },
+    {
+      "id": "glass_break",
+      "file": "audio/sfx/glass_break.mp3",
+      "title": "Glass, Break, Bottle, Smash",
+      "epidemicId": "dc84e905-f864-4355-8eee-7f3fc2e09285",
+      "loop": false,
+      "volume": 1.573,
+      "durationSec": 0.82
+    },
+    {
+      "id": "countdown_beep",
+      "file": "audio/sfx/countdown_beep.mp3",
+      "title": "Beeps, Lofi, Button Beep Tone",
+      "epidemicId": "6b34e706-15cd-4042-9c7c-f50bd2f8316c",
+      "loop": false,
+      "volume": 0.741,
+      "durationSec": 0.11
+    },
+    {
+      "id": "go_beep",
+      "file": "audio/sfx/go_beep.mp3",
+      "title": "Beeps, General, Short, Moving Bleep, High Pitch",
+      "epidemicId": "7ead2be4-c328-4cf6-8baf-bf2863b354de",
+      "loop": false,
+      "volume": 0.933,
+      "durationSec": 1.2
+    },
+    {
+      "id": "wind",
+      "file": "audio/sfx/wind.mp3",
+      "title": "Wind, Gust, Howling, Whistling, Polar",
+      "epidemicId": "7c3d2edb-e5eb-4e25-99cb-fbebdc0b2244",
+      "loop": true,
+      "volume": 0.721,
+      "durationSec": 12.5
+    },
+    {
+      "id": "city_ambience",
+      "file": "audio/sfx/city_ambience.mp3",
+      "title": "Ambience, Urban, City, Quiet, Light Traffic",
+      "epidemicId": "06a206d0-0041-45e9-b237-9ed422b1280c",
+      "loop": true,
+      "volume": 0.474,
+      "durationSec": 20
+    },
+    {
+      "id": "waves",
+      "file": "audio/sfx/waves.mp3",
+      "title": "Water, Wave, Ocean, Waves, Shore, Calm 02",
+      "epidemicId": "ba55f218-704c-4fc7-abda-e969552e0117",
+      "loop": true,
+      "volume": 0.532,
+      "durationSec": 20
+    },
+    {
+      "id": "wetland_ambience",
+      "file": "audio/sfx/wetland_ambience.mp3",
+      "title": "Ambience, Swamp, Frog, Close, Crickets In Background",
+      "epidemicId": "d2dc22fd-0d5c-4065-b1eb-0763903e8c20",
+      "loop": true,
+      "volume": 0.458,
+      "durationSec": 22
+    },
+    {
+      "id": "club_bass",
+      "file": "audio/sfx/club_bass.mp3",
+      "title": "Ambience, Celebration, Music Festival, Distant Music, Rumble",
+      "epidemicId": "655c8e8e-14f4-48d3-9d1e-f21ed6b28b8e",
+      "loop": true,
+      "volume": 0.75,
+      "durationSec": 22
+    },
+    {
+      "id": "punch",
+      "file": "audio/sfx/punch.mp3",
+      "title": "Fight, Impact, Punch, Low End",
+      "epidemicId": "535cabb3-846d-447e-ba80-34dbc11c31e1",
+      "loop": false,
+      "volume": 1.538,
+      "durationSec": 0.6
+    },
+    {
+      "id": "pickup",
+      "file": "audio/sfx/pickup.mp3",
+      "title": "Games, Video, Collect Item 03",
+      "epidemicId": "f7110f54-83f7-42fa-bf03-da527fe3ab0d",
+      "loop": false,
+      "volume": 0.933,
+      "durationSec": 0.5
+    },
+    {
+      "id": "mission_pass",
+      "file": "audio/sfx/mission_pass.mp3",
+      "title": "User Interface, Alert, Game, Points, Jingle 02 (mission_pass sting)",
+      "epidemicId": "00f10036-4bfa-4638-a5d1-64b2e61cc464",
+      "loop": false,
+      "volume": 1.318,
+      "durationSec": 3
+    },
+    {
+      "id": "mission_fail",
+      "file": "audio/sfx/mission_fail.mp3",
+      "title": "Fail, Trumpet 02 (mission_fail sting)",
+      "epidemicId": "28a7801c-9047-439a-b8b3-ba558660f428",
+      "loop": false,
+      "volume": 1.175,
+      "durationSec": 3
+    },
+    {
+      "id": "car_door_open",
+      "file": "audio/sfx/car_door_open.mp3",
+      "title": "Vehicles, Door, Car, Open, External",
+      "epidemicId": "5c044cef-f909-473e-95ae-36c009f3c787",
+      "loop": false,
+      "volume": 1.862,
+      "durationSec": 0.66
+    },
+    {
+      "id": "car_door_close",
+      "file": "audio/sfx/car_door_close.mp3",
+      "title": "Vehicles, Door, Car, SUV, Close, External 01",
+      "epidemicId": "2dc67f58-54b2-4aea-9673-6b392e6a1b46",
+      "loop": false,
+      "volume": 1.318,
+      "durationSec": 0.33
+    },
+    {
+      "id": "engine_start",
+      "file": "audio/sfx/engine_start.mp3",
+      "title": "Vehicles, Car, Renault Clio 2009, Turn On, Idle, Turn, Off, Engine Perspective (start section)",
+      "epidemicId": "493e5a30-25a4-4bcb-9341-a570ebb3703e",
+      "loop": false,
+      "volume": 1.555,
+      "durationSec": 4.2
+    },
+    {
+      "id": "engine_stop",
+      "file": "audio/sfx/engine_stop.mp3",
+      "title": "Vehicles, Car, Renault Clio 2009, Turn On, Idle, Turn, Off, Engine Perspective (turn-off section)",
+      "epidemicId": "493e5a30-25a4-4bcb-9341-a570ebb3703e",
+      "loop": false,
+      "volume": 1.468,
+      "durationSec": 3.89
+    },
+    {
+      "id": "gear_shift",
+      "file": "audio/sfx/gear_shift.mp3",
+      "title": "Vehicles, Mechanism, Car, Interior, Gear Shift",
+      "epidemicId": "26ca4523-aa7e-4de6-9114-7814d4637e1c",
+      "loop": false,
+      "volume": 1.77,
+      "durationSec": 1.48
+    },
+    {
+      "id": "brake_squeal",
+      "file": "audio/sfx/brake_squeal.mp3",
+      "title": "Vehicles, Brake, Car, Tire Squeal, Brake Skid 03",
+      "epidemicId": "353bbd52-27b5-4d42-bc2a-e77c6c84cc14",
+      "loop": false,
+      "volume": 1.666,
+      "durationSec": 1.77
+    },
+    {
+      "id": "crash_light",
+      "file": "audio/sfx/crash_light.mp3",
+      "title": "Destruction, Crash & Debris, Car Destruction, Medium Heavy, Metal Rod Hits Hood, Parts, Trash Debris",
+      "epidemicId": "db403ba7-2c5a-4b54-9a2a-1268bc4ca22c",
+      "loop": false,
+      "volume": 1.667,
+      "durationSec": 2.4
+    },
+    {
+      "id": "crash_heavy",
+      "file": "audio/sfx/crash_heavy.mp3",
+      "title": "Destruction, Crash & Debris, Car Crash, Heavy 02",
+      "epidemicId": "5390d6cc-687f-4aa0-8e0d-eae095ac2d4b",
+      "loop": false,
+      "volume": 2.242,
+      "durationSec": 2.96
+    },
+    {
+      "id": "metal_scrape",
+      "file": "audio/sfx/metal_scrape.mp3",
+      "title": "Metal, Friction, Scrape, Plate Or Panel",
+      "epidemicId": "3175bafc-c980-48f1-a647-aa5dbc8d5d57",
+      "loop": false,
+      "volume": 1.04,
+      "durationSec": 2.36
+    },
+    {
+      "id": "tire_skid_short",
+      "file": "audio/sfx/tire_skid_short.mp3",
+      "title": "Car, Brake, Tire, Skid 04",
+      "epidemicId": "d59a2ad0-f91d-44b8-abae-4a38eda66250",
+      "loop": false,
+      "volume": 0.841,
+      "durationSec": 1.72
+    },
+    {
+      "id": "turbo_whoosh",
+      "file": "audio/sfx/turbo_whoosh.mp3",
+      "title": "Swooshes, Whoosh, Airy, Long (used as turbo whoosh)",
+      "epidemicId": "1fe56284-5624-45a1-978c-66977bf690ca",
+      "loop": false,
+      "volume": 0.676,
+      "durationSec": 1.46
+    },
+    {
+      "id": "car_alarm",
+      "file": "audio/sfx/car_alarm.mp3",
+      "title": "Vehicles, Alarm, Alfa Romeo 156 2003, Large, Family Car, Alarm",
+      "epidemicId": "f5c7f78b-48d1-4eb2-a639-aa3d998cab00",
+      "loop": true,
+      "volume": 1.312,
+      "durationSec": 12.6
+    },
+    {
+      "id": "boat_horn",
+      "file": "audio/sfx/boat_horn.mp3",
+      "title": "Boats, Horn, Large Horn",
+      "epidemicId": "64263993-994b-4b92-8471-9fa35d269a04",
+      "loop": false,
+      "volume": 1.648,
+      "durationSec": 3.0
+    },
+    {
+      "id": "wind_speed",
+      "file": "audio/sfx/wind_speed.mp3",
+      "title": "Wind, Designed, Phoebe Wind, Loop 01",
+      "epidemicId": "f83ff7cc-f097-4522-80b6-fc30c0e6e704",
+      "loop": true,
+      "volume": 1.169,
+      "durationSec": 18.0
+    },
+    {
+      "id": "gun_reload",
+      "file": "audio/sfx/gun_reload.mp3",
+      "title": "Bullets, Shell, Pistol Bullet, Reload, Magazine, Modern, Slide In 01",
+      "epidemicId": "37d909ca-65fa-44a2-8b04-8b730e37ac75",
+      "loop": false,
+      "volume": 1.096,
+      "durationSec": 2.25
+    },
+    {
+      "id": "gun_empty",
+      "file": "audio/sfx/gun_empty.mp3",
+      "title": "Guns, Mechanism, Walther P38, Semi Automatic Pistol, Dry Fire",
+      "epidemicId": "2f92ddf9-86f9-48db-b219-40d47d393e07",
+      "loop": false,
+      "volume": 1.928,
+      "durationSec": 0.39
+    },
+    {
+      "id": "shell_casing",
+      "file": "audio/sfx/shell_casing.mp3",
+      "title": "Bullets, Shell, Drop, 50 Caliber 01",
+      "epidemicId": "44b39d3d-c1c1-493b-9432-c483d47420b4",
+      "loop": false,
+      "volume": 0.32,
+      "durationSec": 1.4
+    },
+    {
+      "id": "bullet_impact_concrete",
+      "file": "audio/sfx/bullet_impact_concrete.mp3",
+      "title": "Bullets, Impact, Concrete, Brick",
+      "epidemicId": "3ba1e7b5-66b7-4e0b-8afc-2ce2fd7b524d",
+      "loop": false,
+      "volume": 1.306,
+      "durationSec": 1.0
+    },
+    {
+      "id": "bullet_impact_metal",
+      "file": "audio/sfx/bullet_impact_metal.mp3",
+      "title": "Bullets, Impact, Hit, Metal 02",
+      "epidemicId": "9094eab3-a0c2-4e9e-9305-f3799e78d4d6",
+      "loop": false,
+      "volume": 1.321,
+      "durationSec": 1.0
+    },
+    {
+      "id": "bullet_impact_flesh",
+      "file": "audio/sfx/bullet_impact_flesh.mp3",
+      "title": "Bullets, Impact, Hit, Body, Flesh 03",
+      "epidemicId": "21834ce0-138e-45bd-841c-5ca879e3fdf6",
+      "loop": false,
+      "volume": 1.337,
+      "durationSec": 1.56
+    },
+    {
+      "id": "ricochet",
+      "file": "audio/sfx/ricochet.mp3",
+      "title": "Bullets, Ricochet, Classic, Tonal",
+      "epidemicId": "84153f36-d609-4808-afeb-2036545f17e5",
+      "loop": false,
+      "volume": 1.294,
+      "durationSec": 0.88
+    },
+    {
+      "id": "bullet_whiz",
+      "file": "audio/sfx/bullet_whiz.mp3",
+      "title": "Bullets, By, Fast, Flying Item Pass By 01",
+      "epidemicId": "3a080f47-aba7-4bd7-9ed6-8b2db584ea24",
+      "loop": false,
+      "volume": 1.37,
+      "durationSec": 0.9
+    },
+    {
+      "id": "explosion",
+      "file": "audio/sfx/explosion.mp3",
+      "title": "Explosions, Misc, Bomb, Explosion, Small, Bang, Detonation 02 + Designed, Boom, Low Hit (layered)",
+      "epidemicId": "d855f778-e584-4b1d-8201-ab31dcea9700",
+      "loop": false,
+      "volume": 2.63,
+      "durationSec": 3.4
+    },
+    {
+      "id": "body_fall",
+      "file": "audio/sfx/body_fall.mp3",
+      "title": "Fight, Bodyfall, Body Fall Ground, Impact 02",
+      "epidemicId": "4c6c238e-b848-4151-8570-aec84a060f49",
+      "loop": false,
+      "volume": 0.759,
+      "durationSec": 1.1
+    },
+    {
+      "id": "hurt_grunt",
+      "file": "audio/sfx/hurt_grunt.mp3",
+      "title": "Voices, Male, Hurt, Combat, Damaged, Pain 03",
+      "epidemicId": "5bcc2b2c-1d0d-4477-9e82-f0a5e27bc924",
+      "loop": false,
+      "volume": 1.658,
+      "durationSec": 1.52
+    },
+    {
+      "id": "heartbeat",
+      "file": "audio/sfx/heartbeat.mp3",
+      "title": "Human, Heartbeat, Designed, Heartbeats, Loopable 01",
+      "epidemicId": "350568f4-475a-4039-af56-702b1262f305",
+      "loop": true,
+      "volume": 1.499,
+      "durationSec": 14.62
+    },
+    {
+      "id": "wasted",
+      "file": "audio/sfx/wasted.mp3",
+      "title": "Designed, Boom, Impact, Dark, Cinematic, Low HIt",
+      "epidemicId": "d106e784-e06e-4673-ae48-a36e145a715d",
+      "loop": false,
+      "volume": 1.849,
+      "durationSec": 3.0
+    },
+    {
+      "id": "busted",
+      "file": "audio/sfx/busted.mp3",
+      "title": "Designed, Stinger, Impact, Hit, Dark, Distorted, Horror",
+      "epidemicId": "378f93c7-bed7-4bca-b309-b2e4e704b3ad",
+      "loop": false,
+      "volume": 1.807,
+      "durationSec": 2.0
+    },
+    {
+      "id": "underwater",
+      "file": "audio/sfx/underwater.mp3",
+      "title": "Ambience, Underwater, Water Flow 01",
+      "epidemicId": "e3814900-5881-47c9-99a6-33fa4a50da28",
+      "loop": true,
+      "volume": 0.968,
+      "durationSec": 18.0
+    },
+    {
+      "id": "big_splash",
+      "file": "audio/sfx/big_splash.mp3",
+      "title": "Water, Splash, Child Jump Into Pool, Straight Jump 01",
+      "epidemicId": "84512149-bf27-4f8b-a69e-c798585d043b",
+      "loop": false,
+      "volume": 1.324,
+      "durationSec": 2.05
+    },
+    {
+      "id": "swim_stroke",
+      "file": "audio/sfx/swim_stroke.mp3",
+      "title": "Water, Movement, Swimming, Swimmer, Movement In Water 02",
+      "epidemicId": "03f5746a-d70b-499b-8d2f-effbee1fb5f9",
+      "loop": false,
+      "volume": 0.468,
+      "durationSec": 3.52
+    },
+    {
+      "id": "water_climb_out",
+      "file": "audio/sfx/water_climb_out.mp3",
+      "title": "Water, Splash, Pool, Big Surfacing Movements, Splash And Drip",
+      "epidemicId": "07b5ba0b-4d40-4e5d-bc5c-1837601173b1",
+      "loop": false,
+      "volume": 1.127,
+      "durationSec": 3.6
+    },
+    {
+      "id": "crowd_chatter",
+      "file": "audio/sfx/crowd_chatter.mp3",
+      "title": "Ambience, Market, Walking Street, Crowded, Voices, Walla, Thailand 02 (AmbiX B)",
+      "epidemicId": "37c69978-0dac-4657-942e-88f2eb979ddb",
+      "loop": true,
+      "volume": 0.696,
+      "durationSec": 20.0
+    },
+    {
+      "id": "seagulls",
+      "file": "audio/sfx/seagulls.mp3",
+      "title": "Ambience, Seaside, Beach, Many Seagulls, Distant Low Waves",
+      "epidemicId": "050315d6-871c-444e-ad04-bbda17ba82e1",
+      "loop": true,
+      "volume": 0.696,
+      "durationSec": 20.0
+    },
+    {
+      "id": "birds_park",
+      "file": "audio/sfx/birds_park.mp3",
+      "title": "Ambience, Park, Birds, Calm, City Hum",
+      "epidemicId": "0dfe0078-4495-4c93-b475-6a5c10010fe3",
+      "loop": true,
+      "volume": 1.241,
+      "durationSec": 20.0
+    },
+    {
+      "id": "distant_sirens",
+      "file": "audio/sfx/distant_sirens.mp3",
+      "title": "Vehicles, Siren, Police Siren, Distant",
+      "epidemicId": "3ee522b6-0203-4fcb-9596-72f34b22b21a",
+      "loop": true,
+      "volume": 1.096,
+      "durationSec": 22.0
+    },
+    {
+      "id": "police_radio",
+      "file": "audio/sfx/police_radio.mp3",
+      "title": "Voices, Futzed, Walkie Talkie, Police Radio, Conversation, Between Dispatch And Officer",
+      "epidemicId": "fc42f277-ffb5-451d-b4d5-12aaa1efaa1b",
+      "loop": false,
+      "volume": 1.064,
+      "durationSec": 8.0
+    },
+    {
+      "id": "helicopter",
+      "file": "audio/sfx/helicopter.mp3",
+      "title": "Aircraft, Helicopter, Chopper. Standing Still, Close, Loop",
+      "epidemicId": "cf93bd14-0ad1-4e13-82d4-adeeb02c2d5c",
+      "loop": true,
+      "volume": 0.468,
+      "durationSec": 10.5
+    },
+    {
+      "id": "plane_flyover",
+      "file": "audio/sfx/plane_flyover.mp3",
+      "title": "Aircraft, Jet, Plane, Pass Overhead 02",
+      "epidemicId": "1b3d79ef-c74b-409b-8118-b36f46e332e9",
+      "loop": false,
+      "volume": 1.196,
+      "durationSec": 24.0
+    },
+    {
+      "id": "dog_bark",
+      "file": "audio/sfx/dog_bark.mp3",
+      "title": "Animals, Dog, Labradoodle, Bark, Single",
+      "epidemicId": "105b4f29-b86f-445e-8569-53c468d1fc2d",
+      "loop": false,
+      "volume": 0.946,
+      "durationSec": 0.39
+    },
+    {
+      "id": "construction",
+      "file": "audio/sfx/construction.mp3",
+      "title": "Ambience, Construction, Construction Site, Hammer, Drill, Medium Size, Egypt 01",
+      "epidemicId": "c5da5559-7ca3-44d5-b1fc-5727efd8c8ac",
+      "loop": true,
+      "volume": 0.232,
+      "durationSec": 20.0
+    },
+    {
+      "id": "fountain",
+      "file": "audio/sfx/fountain.mp3",
+      "title": "Water, Fountain, Constant, Outdoor",
+      "epidemicId": "6050787a-3af6-4170-83b8-be026dce7759",
+      "loop": true,
+      "volume": 0.224,
+      "durationSec": 18.0
+    },
+    {
+      "id": "traffic_distant",
+      "file": "audio/sfx/traffic_distant.mp3",
+      "title": "Ambience, Urban, City, Hum, Distant Traffic, Rumble, Walla",
+      "epidemicId": "e825d157-4017-4cdd-a304-4338cb69f48b",
+      "loop": true,
+      "volume": 0.665,
+      "durationSec": 20.0
+    },
+    {
+      "id": "cash_register",
+      "file": "audio/sfx/cash_register.mp3",
+      "title": "Cash Register, Kaching, Money",
+      "epidemicId": "6caad476-d3e4-44ad-afa1-1e9187c46bd0",
+      "loop": false,
+      "volume": 0.75,
+      "durationSec": 1.92
+    },
+    {
+      "id": "coins",
+      "file": "audio/sfx/coins.mp3",
+      "title": "Games, Video, Event, Collect Coin, Bell Like",
+      "epidemicId": "d4f49e36-4e07-423f-ba9d-a153622e4c24",
+      "loop": false,
+      "volume": 0.661,
+      "durationSec": 0.5
+    },
+    {
+      "id": "door_creak",
+      "file": "audio/sfx/door_creak.mp3",
+      "title": "Doors, Creak, Tattoo Parlour, Creaky Door, Slow Creak",
+      "epidemicId": "9ced1037-881c-4fd2-9596-e8d66c86f75f",
+      "loop": false,
+      "volume": 0.525,
+      "durationSec": 4.5
+    },
+    {
+      "id": "phone_open",
+      "file": "audio/sfx/phone_open.mp3",
+      "title": "User Interface, Beep, Smartphone, Lock Screen, Unlock, Designed 21",
+      "epidemicId": "214a779a-8e57-4783-9b6d-75d9b1f9dc13",
+      "loop": false,
+      "volume": 1.384,
+      "durationSec": 1.6
+    },
+    {
+      "id": "phone_close",
+      "file": "audio/sfx/phone_close.mp3",
+      "title": "User Interface, Beep, Smartphone, Lock Screen, Unlock, Designed 14",
+      "epidemicId": "799f7613-5818-4e63-80d8-52438ac32143",
+      "loop": false,
+      "volume": 1.14,
+      "durationSec": 0.72
+    },
+    {
+      "id": "phone_tap",
+      "file": "audio/sfx/phone_tap.mp3",
+      "title": "User Interface, Click, UI Buttons, Glassy, Touch",
+      "epidemicId": "45c94b43-2fb0-4970-98db-cc0fe6ea3678",
+      "loop": false,
+      "volume": 0.837,
+      "durationSec": 0.12
+    },
+    {
+      "id": "radio_static",
+      "file": "audio/sfx/radio_static.mp3",
+      "title": "Communications, Radio, Tuning Between Stations, Static 01",
+      "epidemicId": "a948c9c5-94c0-48e9-8311-84ce4de9c922",
+      "loop": false,
+      "volume": 1.352,
+      "durationSec": 0.55
+    },
+    {
+      "id": "wheel_whoosh",
+      "file": "audio/sfx/wheel_whoosh.mp3",
+      "title": "Designed, Whoosh, Soft Resonant",
+      "epidemicId": "3eb43b90-168b-404b-b6c2-28c69e53754b",
+      "loop": false,
+      "volume": 1.054,
+      "durationSec": 0.49
+    },
+    {
+      "id": "ui_back",
+      "file": "audio/sfx/ui_back.mp3",
+      "title": "User Interface, Click, UI Buttons, Select, Previous",
+      "epidemicId": "d2ed6a8c-9424-46ab-8f6d-0a1978c3fcdf",
+      "loop": false,
+      "volume": 0.457,
+      "durationSec": 0.55
+    },
+    {
+      "id": "ui_error",
+      "file": "audio/sfx/ui_error.mp3",
+      "title": "User Interface, Alert, Error, Buzz 02",
+      "epidemicId": "22b1439b-9243-46e5-afba-1368aafe4ecf",
+      "loop": false,
+      "volume": 0.525,
+      "durationSec": 0.38
+    },
+    {
+      "id": "rep_up",
+      "file": "audio/sfx/rep_up.mp3",
+      "title": "User Interface, Alert, Notification, Achievement, Level Up, Power Up, Positive, Happy, Short 01",
+      "epidemicId": "08c9ca48-3ea5-4834-83de-c71687415c1e",
+      "loop": false,
+      "volume": 0.832,
+      "durationSec": 0.73
+    },
+    {
+      "id": "mission_start",
+      "file": "audio/sfx/mission_start.mp3",
+      "title": "Designed, Stinger, Dark Impact, Hit, Short, Fast, Tonal Pulse, Abstract, Scifi 02",
+      "epidemicId": "378255a2-bd11-4d58-99e6-7a895b90c090",
+      "loop": false,
+      "volume": 1.697,
+      "durationSec": 1.14
+    },
+    {
+      "id": "objective",
+      "file": "audio/sfx/objective.mp3",
+      "title": "User Interface, Alert, Tonal, Soft Confirm Chime",
+      "epidemicId": "ca606dde-a0ba-4749-beb3-40e412003ce6",
+      "loop": false,
+      "volume": 1.178,
+      "durationSec": 1.63
+    },
+    {
+      "id": "bag_pickup",
+      "file": "audio/sfx/bag_pickup.mp3",
+      "title": "Objects, Bag, Backpack Drop On Floor",
+      "epidemicId": "01f1f190-b92d-41e9-bed6-cc326c3386fa",
+      "loop": false,
+      "volume": 0.75,
+      "durationSec": 1.5
+    },
+    {
+      "id": "zipper",
+      "file": "audio/sfx/zipper.mp3",
+      "title": "Objects, Zipper, Bag, Camera Bag, Zipper Movements",
+      "epidemicId": "8ec122b9-90aa-4041-bdbd-91cb6d95b956",
+      "loop": false,
+      "volume": 0.525,
+      "durationSec": 3.42
+    },
+    {
+      "id": "keypad_beep",
+      "file": "audio/sfx/keypad_beep.mp3",
+      "title": "Beeps, Appliance, Microwave, Button Press With Beep",
+      "epidemicId": "d4e67525-f80d-4680-8a52-bddfe80c97f6",
+      "loop": false,
+      "volume": 0.468,
+      "durationSec": 0.35
+    },
+    {
+      "id": "hack_beep",
+      "file": "audio/sfx/hack_beep.mp3",
+      "title": "User Interface, Data, Computer, Futuristic, Data Processing, Loading 31",
+      "epidemicId": "53aee1a4-8836-46ed-88e7-b1a04550915f",
+      "loop": false,
+      "volume": 0.468,
+      "durationSec": 2.5
+    },
+    {
+      "id": "safe_dial",
+      "file": "audio/sfx/safe_dial.mp3",
+      "title": "Mechanical, Click, Heating Thermostat, Dial Turn (used as safe dial)",
+      "epidemicId": "078fcf44-6484-4e6f-8123-c465274b6178",
+      "loop": false,
+      "volume": 0.631,
+      "durationSec": 3.0
+    },
+    {
+      "id": "vault_door",
+      "file": "audio/sfx/vault_door.mp3",
+      "title": "Doors, Dungeon, Medieval Door, Heavy, Close 02 (used as vault door)",
+      "epidemicId": "afaed7be-2b12-4104-a8bd-540d23fca4ea",
+      "loop": false,
+      "volume": 1.189,
+      "durationSec": 4.0
+    },
+    {
+      "id": "cash_counting",
+      "file": "audio/sfx/cash_counting.mp3",
+      "title": "Paper, Handle, Money, Notes, Count For Hand",
+      "epidemicId": "6608109b-7aff-41f3-9421-2e5999cdd5d8",
+      "loop": false,
+      "volume": 0.589,
+      "durationSec": 5.0
+    }
+  ],
+  "radio": {
+    "pop": [
+      {
+        "id": "radio_pop_1",
+        "file": "audio/radio/pop/1.mp3",
+        "title": "Feel the Energy",
+        "artist": "Katnip",
+        "epidemicId": "b55be3a6-71fc-436f-a78b-8ccafad0e6d7",
+        "durationSec": 190.6
+      },
+      {
+        "id": "radio_pop_2",
+        "file": "audio/radio/pop/2.mp3",
+        "title": "Too Late to Meet Up",
+        "artist": "House Of Say",
+        "epidemicId": "77317dd0-8df2-4fb2-9fb3-20d785a6d5e2",
+        "durationSec": 188.2
+      },
+      {
+        "id": "radio_pop_3",
+        "file": "audio/radio/pop/3.mp3",
+        "title": "Happier",
+        "artist": "Mindme",
+        "epidemicId": "22251586-81f3-42dd-9924-701b1aeb3bd8",
+        "durationSec": 176.2
+      },
+      {
+        "id": "radio_pop_4",
+        "file": "audio/radio/pop/4.mp3",
+        "title": "We Came to Party",
+        "artist": "Basixx",
+        "epidemicId": "2568fa7a-f879-3634-b197-add37677ed55",
+        "durationSec": 190.5
+      },
+      {
+        "id": "radio_pop_5",
+        "file": "audio/radio/pop/5.mp3",
+        "title": "There's a Heatwave",
+        "artist": "Siine",
+        "epidemicId": "444bf554-be29-4396-a874-10cab3659adc",
+        "durationSec": 173.5
+      },
+      {
+        "id": "radio_pop_6",
+        "file": "audio/radio/pop/6.mp3",
+        "title": "Only for Tonight",
+        "artist": "NIGHTCAP",
+        "epidemicId": "153c11f4-963e-42f1-95d2-654b651df23d",
+        "durationSec": 176.9
+      }
+    ],
+    "hiphop": [
+      {
+        "id": "radio_hiphop_1",
+        "file": "audio/radio/hiphop/1.mp3",
+        "title": "Gold",
+        "artist": "Damma Beatz",
+        "epidemicId": "9216cc87-d69b-3558-9d11-8ac22b7335c1",
+        "durationSec": 206.3
+      },
+      {
+        "id": "radio_hiphop_2",
+        "file": "audio/radio/hiphop/2.mp3",
+        "title": "Olay",
+        "artist": "Azucares",
+        "epidemicId": "f4b5e5d1-c278-4e10-91f6-dcbc011ec722",
+        "durationSec": 173.6
+      },
+      {
+        "id": "radio_hiphop_3",
+        "file": "audio/radio/hiphop/3.mp3",
+        "title": "CORONATION",
+        "artist": "BLUE STEEL",
+        "epidemicId": "38c4a13b-fa62-4af4-b5a3-b98a8e0dd352",
+        "durationSec": 132.0
+      },
+      {
+        "id": "radio_hiphop_4",
+        "file": "audio/radio/hiphop/4.mp3",
+        "title": "Flex Up (Clean Version)",
+        "artist": "Tilden Parc",
+        "epidemicId": "fb3825ee-9d96-4b36-94ec-73f60d3bd282",
+        "durationSec": 202.6
+      },
+      {
+        "id": "radio_hiphop_5",
+        "file": "audio/radio/hiphop/5.mp3",
+        "title": "Candy Man",
+        "artist": "Homebody",
+        "epidemicId": "6e41a1bd-1b81-4b60-866e-2ba9c9506236",
+        "durationSec": 162.2
+      },
+      {
+        "id": "radio_hiphop_6",
+        "file": "audio/radio/hiphop/6.mp3",
+        "title": "Quadruple Cup",
+        "artist": "peerless",
+        "epidemicId": "4fd4d998-cc56-4577-be19-87a1670fa1d4",
+        "durationSec": 138.8
+      }
+    ],
+    "latin": [
+      {
+        "id": "radio_latin_1",
+        "file": "audio/radio/latin/1.mp3",
+        "title": "Mantecadito (Instrumental Version)",
+        "artist": "Lawd Ito",
+        "epidemicId": "2aa7b6f8-39e4-440a-bd81-6db3c2cdcf36",
+        "durationSec": 201.6
+      },
+      {
+        "id": "radio_latin_2",
+        "file": "audio/radio/latin/2.mp3",
+        "title": "Hazme el Amor",
+        "artist": "Lu-Ni",
+        "epidemicId": "90145cd9-4c7c-4440-b3d2-6f6047047967",
+        "durationSec": 165.2
+      },
+      {
+        "id": "radio_latin_3",
+        "file": "audio/radio/latin/3.mp3",
+        "title": "La Playlist de Siempre",
+        "artist": "Nico Rengifo",
+        "epidemicId": "99a825c7-3b20-4c4a-8429-2ca4c17317db",
+        "durationSec": 165.5
+      },
+      {
+        "id": "radio_latin_4",
+        "file": "audio/radio/latin/4.mp3",
+        "title": "Mi Salsita",
+        "artist": "El Equipo Del Norte",
+        "epidemicId": "b1ae46c5-ab30-408a-97da-58c4d3ca3e70",
+        "durationSec": 205.6
+      },
+      {
+        "id": "radio_latin_5",
+        "file": "audio/radio/latin/5.mp3",
+        "title": "FEELINGS (Instrumental Version)",
+        "artist": "Alik",
+        "epidemicId": "ef4b78a8-7c6b-4013-a94d-9b1c06047b4d",
+        "durationSec": 146.8
+      },
+      {
+        "id": "radio_latin_6",
+        "file": "audio/radio/latin/6.mp3",
+        "title": "Sabores de Punta Cana",
+        "artist": "Master One",
+        "epidemicId": "9fc44f3c-6c8b-4d8b-a78b-158ebcbc6c1c",
+        "durationSec": 239.9
+      }
+    ],
+    "synthwave": [
+      {
+        "id": "radio_synthwave_1",
+        "file": "audio/radio/synthwave/1.mp3",
+        "title": "Please Rewind",
+        "artist": "Ava Low",
+        "epidemicId": "a7c7d3e8-b4d3-4911-b4b3-ed9ce01ea63c",
+        "durationSec": 240.0
+      },
+      {
+        "id": "radio_synthwave_2",
+        "file": "audio/radio/synthwave/2.mp3",
+        "title": "Breaktime",
+        "artist": "Future Joust",
+        "epidemicId": "1569b5c1-910d-3cab-9eca-d558a25a9664",
+        "durationSec": 206.5
+      },
+      {
+        "id": "radio_synthwave_3",
+        "file": "audio/radio/synthwave/3.mp3",
+        "title": "Break the Fast",
+        "artist": "Vision Heat",
+        "epidemicId": "9426c021-4cb8-4a9c-a75d-cd9ec185908b",
+        "durationSec": 214.7
+      },
+      {
+        "id": "radio_synthwave_4",
+        "file": "audio/radio/synthwave/4.mp3",
+        "title": "Helium Drive",
+        "artist": "ELFL",
+        "epidemicId": "ddae29d1-964c-4cd4-a4a4-d79e7c507f82",
+        "durationSec": 217.2
+      },
+      {
+        "id": "radio_synthwave_5",
+        "file": "audio/radio/synthwave/5.mp3",
+        "title": "made in taiwan",
+        "artist": "Lupus Nocte",
+        "epidemicId": "7922b68f-7481-4db1-bd31-a7b1b952f453",
+        "durationSec": 182.2
+      },
+      {
+        "id": "radio_synthwave_6",
+        "file": "audio/radio/synthwave/6.mp3",
+        "title": "Electric Mix",
+        "artist": "Traci Bryan",
+        "epidemicId": "e462cb93-c7be-3a64-a4aa-31ed96d5629e",
+        "durationSec": 156.8
+      }
+    ],
+    "house": [
+      {
+        "id": "radio_house_1",
+        "file": "audio/radio/house/1.mp3",
+        "title": "Sick Of Love",
+        "artist": "Bastien Slice",
+        "epidemicId": "1d5894cb-36b5-38b8-8d03-95cf2564297b",
+        "durationSec": 240.0
+      },
+      {
+        "id": "radio_house_2",
+        "file": "audio/radio/house/2.mp3",
+        "title": "Woodbrain",
+        "artist": "Far Orange",
+        "epidemicId": "cf36e8ad-9d88-4e46-8c20-1ed7f0a0e956",
+        "durationSec": 240.0
+      },
+      {
+        "id": "radio_house_3",
+        "file": "audio/radio/house/3.mp3",
+        "title": "Loosen Up",
+        "artist": "Midnight Cycler",
+        "epidemicId": "73257b0d-5b58-47da-8e0a-e65f06f742d6",
+        "durationSec": 176.5
+      },
+      {
+        "id": "radio_house_4",
+        "file": "audio/radio/house/4.mp3",
+        "title": "Before U Go",
+        "artist": "LeDorean",
+        "epidemicId": "463b512d-e6cb-40ac-8036-fdfeef44f75b",
+        "durationSec": 172.5
+      },
+      {
+        "id": "radio_house_5",
+        "file": "audio/radio/house/5.mp3",
+        "title": "Botox",
+        "artist": "Phello",
+        "epidemicId": "1adcef56-fc63-4e6b-a73d-f50ca4f726e5",
+        "durationSec": 174.3
+      },
+      {
+        "id": "radio_house_6",
+        "file": "audio/radio/house/6.mp3",
+        "title": "Dance Right Away",
+        "artist": "Magnofield",
+        "epidemicId": "9f4976a1-3825-3fcd-a4d9-479343fb8aeb",
+        "durationSec": 201.2
+      }
+    ],
+    "smooth": [
+      {
+        "id": "radio_smooth_1",
+        "file": "audio/radio/smooth/1.mp3",
+        "title": "Let Me Be Something",
+        "artist": "Lionel Quick",
+        "epidemicId": "0419309b-f737-3502-9c92-ec9e077ca139",
+        "durationSec": 140.0
+      },
+      {
+        "id": "radio_smooth_2",
+        "file": "audio/radio/smooth/2.mp3",
+        "title": "Tokyo Slow Train",
+        "artist": "Sugoi",
+        "epidemicId": "7f02311d-9397-4516-931c-cd2c5b7cd4cf",
+        "durationSec": 229.6
+      },
+      {
+        "id": "radio_smooth_3",
+        "file": "audio/radio/smooth/3.mp3",
+        "title": "Bill Me",
+        "artist": "Ritchie Everett",
+        "epidemicId": "a7de42cb-7ff6-44ab-bd33-dd2aec38f34d",
+        "durationSec": 233.6
+      },
+      {
+        "id": "radio_smooth_4",
+        "file": "audio/radio/smooth/4.mp3",
+        "title": "Biscuits",
+        "artist": "Colors of Illusion",
+        "epidemicId": "b64fa70b-4b5f-452c-ac0b-519486bf6cdd",
+        "durationSec": 205.1
+      },
+      {
+        "id": "radio_smooth_5",
+        "file": "audio/radio/smooth/5.mp3",
+        "title": "After the Reign",
+        "artist": "Jerry McHoy",
+        "epidemicId": "f9d65e0e-3ead-4a83-9958-2a59ebe19137",
+        "durationSec": 222.8
+      },
+      {
+        "id": "radio_smooth_6",
+        "file": "audio/radio/smooth/6.mp3",
+        "title": "Sunday Night Jam",
+        "artist": "The New Fools",
+        "epidemicId": "9cbacb04-b576-3ff6-ae25-6b4c6274acfc",
+        "durationSec": 138.6
+      }
+    ],
+    "rock": [
+      {
+        "id": "radio_rock_1",
+        "file": "audio/radio/rock/1.mp3",
+        "title": "Crooked Lines",
+        "artist": "Staffan Carlén",
+        "epidemicId": "bd1b9277-5089-4be6-b0de-f5a0d737b3c8",
+        "durationSec": 240.0
+      },
+      {
+        "id": "radio_rock_2",
+        "file": "audio/radio/rock/2.mp3",
+        "title": "Dare to Be a Devil (Instrumental Version)",
+        "artist": "Roof",
+        "epidemicId": "f5fa0941-0e34-485d-a5d7-24b15ed9e662",
+        "durationSec": 178.0
+      },
+      {
+        "id": "radio_rock_3",
+        "file": "audio/radio/rock/3.mp3",
+        "title": "Map of the Stars (Instrumental Version)",
+        "artist": "First Timer",
+        "epidemicId": "5ec7effe-7146-4248-b2c4-88649911849b",
+        "durationSec": 240.0
+      },
+      {
+        "id": "radio_rock_4",
+        "file": "audio/radio/rock/4.mp3",
+        "title": "All That's Left (Instrumental Version)",
+        "artist": "Ingrid Witt",
+        "epidemicId": "b94458f3-f930-4b1a-b4a3-5a9e9eb2d0d0",
+        "durationSec": 175.8
+      },
+      {
+        "id": "radio_rock_5",
+        "file": "audio/radio/rock/5.mp3",
+        "title": "White Light (Instrumental Version)",
+        "artist": "The Foundling",
+        "epidemicId": "3d09bc11-e039-4b28-8306-75ef662631a5",
+        "durationSec": 194.3
+      },
+      {
+        "id": "radio_rock_6",
+        "file": "audio/radio/rock/6.mp3",
+        "title": "I Need A Remedy",
+        "artist": "Of Men And Wolves",
+        "epidemicId": "4c27c485-344a-3c8f-8837-f7f0a32055da",
+        "durationSec": 188.1
+      }
+    ]
+  }
+}

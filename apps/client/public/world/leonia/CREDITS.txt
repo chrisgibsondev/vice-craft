@@ -1,0 +1,9 @@
+Leonia world data
+
+Map data © OpenStreetMap contributors, available under the Open Database Licence (ODbL) 1.0.
+https://www.openstreetmap.org/copyright
+
+Sources: BBBike.org Miami extract (OSM), Overpass API.
+This directory is a Produced Work / derivative database of OpenStreetMap: simplified (<=0.5 m),
+quantised to 1 m, re-encoded as binary tiles, plus procedurally generated infill buildings flagged SYNTHETIC.
+Built 2026-11-18T11:25:53.646Z.

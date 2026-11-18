@@ -1,0 +1,32 @@
+{
+  "name": "blockshore",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/shared",
+    "apps/server",
+    "apps/client"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "npm run dev -w @blockshore/server",
+    "dev:client": "npm run dev -w @blockshore/client",
+    "build": "npm run build -w @blockshore/client",
+    "start": "npm run start -w @blockshore/server",
+    "migrate": "npm run migrate -w @blockshore/server",
+    "typecheck": "tsc -p packages/shared && tsc -p apps/server && tsc -p apps/client",
+    "test": "node --import tsx --test --test-concurrency=1 tests/core.test.ts tests/coop.test.ts tests/restart.test.ts tests/web.test.ts tests/leonia.test.ts tests/barks.test.ts tests/weather.test.ts tests/palmara.test.ts tests/guest.test.ts tests/swim.test.ts",
+    "map:overlay": "tsx scripts/map-overlay.ts",
+    "validate": "tsx scripts/validate-content.ts",
+    "loadtest": "tsx scripts/loadtest.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsx": "^4.23.15",
+    "@types/node": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VICE CRAFT audio demo</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font: 14px/1.4 system-ui, sans-serif; background: #111418; color: #e8ecf1; }
+    main { max-width: 760px; margin: 0 auto; padding: 16px; }
+    h1 { font-size: 20px; margin: 8px 0 12px; }
+    section { background: #1b2028; border-radius: 8px; padding: 12px; margin-bottom: 10px; }
+    h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: #9fb0c3; margin: 0 0 8px; }
+    button { font: inherit; background: #2a3442; color: inherit; border: 1px solid #3b4758; border-radius: 6px; padding: 6px 10px; margin: 3px; cursor: pointer; }
+    button:hover { background: #334052; border-color: #5b6b82; }
+    label { display: inline-flex; align-items: center; gap: 8px; margin: 4px 4px 4px 0; }
+    input[type=range] { width: 220px; }
+    #radio-name { font-weight: 700; margin-left: 6px; }
+    pre { background: #0b0d10; padding: 10px; border-radius: 6px; overflow: auto; font: 12px/1.4 ui-monospace, Consolas, monospace; margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>VICE CRAFT audio engine demo</h1>
+
+    <section>
+      <h2>Unlock</h2>
+      <p>Any click or key press also unlocks audio. This button does the same explicitly.</p>
+      <button id="unlock">Enable audio</button>
+    </section>
+
+    <section>
+      <h2>Music (crossfade 1.5 s default)</h2>
+      <button id="m-menu">menu</button>
+      <button id="m-roam">roam_1</button>
+      <button id="m-heist">heist_action</button>
+      <button id="m-stop">stop</button>
+      <h2 style="margin-top:10px">Crossfade (4 s)</h2>
+      <button id="x-race">to race</button>
+      <button id="x-chase">to chase</button>
+    </section>
+
+    <section>
+      <h2>Duck (music + radio, -10 dB)</h2>
+      <button id="duck-on">duck on</button>
+      <button id="duck-off">duck off</button>
+    </section>
+
+    <section>
+      <h2>Radio (plays only in a vehicle)</h2>
+      <button id="radio-vehicle">get in vehicle</button>
+      <button id="radio-prev">prev</button>
+      <button id="radio-next">next</button>
+      <span>Station: <span id="radio-name"></span></span>
+    </section>
+
+    <section>
+      <h2>Positional one-shots (listener at origin, facing -z)</h2>
+      <button id="sfx-left">horn left</button>
+      <button id="sfx-right">horn right</button>
+      <button id="step">footstep (concrete)</button>
+      <button id="ui">ui_click</button>
+    </section>
+
+    <section>
+      <h2>Engine loop (positional, 8 m ahead)</h2>
+      <button id="engine">Engine: start</button>
+      <label>pitch
+        <input id="rate" type="range" min="0.5" max="2" step="0.01" value="1" />
+        <span id="rate-out">1.00</span>
+      </label>
+    </section>
+
+    <section>
+      <h2>Debug (audio.debug())</h2>
+      <pre id="debug">loading...</pre>
+    </section>
+  </main>
+  <script type="module" src="/src/audio/demo.ts"></script>
+</body>
+</html>

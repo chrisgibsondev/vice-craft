@@ -1,0 +1,1110 @@
+{
+ "pack": {
+  "name": "VICE CRAFT realistic-voxel materials",
+  "tileSize": 128,
+  "pxPerBlock": 64,
+  "columns": 16,
+  "albedo": "blocks_albedo.webp",
+  "material": "blocks_material.webp",
+  "materialChannels": "R,G = tangent-space normal XY (OpenGL, +Y up); B = roughness",
+  "notes": "Photographic tiles are downsampled, palette-matched and composited from CC0 Poly Haven PBR maps. Road paint, joints, borders, end grain and other per-block graphics are original procedural work. Tiles not listed here are painted procedurally at runtime (src/render/atlas.ts)."
+ },
+ "sources": {
+  "asphalt_04": {
+   "name": "Asphalt 04",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/asphalt_04",
+   "site": "Poly Haven"
+  },
+  "bark_brown_02": {
+   "name": "Bark Brown 02",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/bark_brown_02",
+   "site": "Poly Haven"
+  },
+  "blue_floor_tiles_01": {
+   "name": "Blue Floor Tiles 01",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/blue_floor_tiles_01",
+   "site": "Poly Haven"
+  },
+  "brown_mud_02": {
+   "name": "Brown Mud 02",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/brown_mud_02",
+   "site": "Poly Haven"
+  },
+  "castle_brick_02_white": {
+   "name": "Castle Brick 02 White",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/castle_brick_02_white",
+   "site": "Poly Haven"
+  },
+  "checkered_pavement_tiles": {
+   "name": "Checkered Pavement Tiles",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/checkered_pavement_tiles",
+   "site": "Poly Haven"
+  },
+  "clay_roof_tiles_02": {
+   "name": "Clay Roof Tiles 02",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/clay_roof_tiles_02",
+   "site": "Poly Haven"
+  },
+  "clean_asphalt": {
+   "name": "Clean Asphalt",
+   "author": "Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/clean_asphalt",
+   "site": "Poly Haven"
+  },
+  "cobblestone_floor_08": {
+   "name": "Cobblestone Floor 08",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/cobblestone_floor_08",
+   "site": "Poly Haven"
+  },
+  "concrete_floor_02": {
+   "name": "Concrete Floor 02",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/concrete_floor_02",
+   "site": "Poly Haven"
+  },
+  "container_side": {
+   "name": "Container Side",
+   "author": "Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/container_side",
+   "site": "Poly Haven"
+  },
+  "coral_ground_02": {
+   "name": "Coral Ground 02",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/coral_ground_02",
+   "site": "Poly Haven"
+  },
+  "corrugated_iron_02": {
+   "name": "Corrugated Iron 02",
+   "author": "Jenelle van Heerden, Sergej Majboroda",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/corrugated_iron_02",
+   "site": "Poly Haven"
+  },
+  "dark_brick_wall": {
+   "name": "Dark Brick Wall",
+   "author": "Dario Barresi, Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/dark_brick_wall",
+   "site": "Poly Haven"
+  },
+  "dark_wooden_planks": {
+   "name": "Dark Wooden Planks",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/dark_wooden_planks",
+   "site": "Poly Haven"
+  },
+  "dirt": {
+   "name": "Dirt",
+   "author": "Charlotte Baglioni",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/dirt",
+   "site": "Poly Haven"
+  },
+  "dirty_carpet": {
+   "name": "Dirty Carpet",
+   "author": "Rohit Seervi",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/dirty_carpet",
+   "site": "Poly Haven"
+  },
+  "dry_mud_field_001": {
+   "name": "Dry Mud Field 001",
+   "author": "Rob Tuytel, Rico Cilliers",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/dry_mud_field_001",
+   "site": "Poly Haven"
+  },
+  "fine_grained_wood": {
+   "name": "Fine Grained Wood",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/fine_grained_wood",
+   "site": "Poly Haven"
+  },
+  "granite_tile_03": {
+   "name": "Granite Tile 03",
+   "author": "Charlotte Baglioni",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/granite_tile_03",
+   "site": "Poly Haven"
+  },
+  "gravel_floor_02": {
+   "name": "Gravel Floor 02",
+   "author": "Jenelle van Heerden, Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/gravel_floor_02",
+   "site": "Poly Haven"
+  },
+  "grey_roof_tiles": {
+   "name": "Grey Roof Tiles",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/grey_roof_tiles",
+   "site": "Poly Haven"
+  },
+  "large_sandstone_blocks_01": {
+   "name": "Large Sandstone Blocks 01",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/large_sandstone_blocks_01",
+   "site": "Poly Haven"
+  },
+  "leafy_grass": {
+   "name": "Leafy Grass",
+   "author": "Charlotte Baglioni",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/leafy_grass",
+   "site": "Poly Haven"
+  },
+  "marble_01": {
+   "name": "Marble 01",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/marble_01",
+   "site": "Poly Haven"
+  },
+  "metal_plate": {
+   "name": "Metal Plate",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/metal_plate",
+   "site": "Poly Haven"
+  },
+  "mossy_rock": {
+   "name": "Mossy Rock",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/mossy_rock",
+   "site": "Poly Haven"
+  },
+  "painted_metal_shutter": {
+   "name": "Painted Metal Shutter",
+   "author": "Dario Barresi, Rico Cilliers, Charlotte Baglioni",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/painted_metal_shutter",
+   "site": "Poly Haven"
+  },
+  "palm_tree_bark": {
+   "name": "Palm Tree Bark",
+   "author": "Dimitrios Savva, Rico Cilliers",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/palm_tree_bark",
+   "site": "Poly Haven"
+  },
+  "park_dirt": {
+   "name": "Park Dirt",
+   "author": "Christopher Melani",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/park_dirt",
+   "site": "Poly Haven"
+  },
+  "plank_flooring_03": {
+   "name": "Plank Flooring 03",
+   "author": "Jenelle van Heerden, Matterfield",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/plank_flooring_03",
+   "site": "Poly Haven"
+  },
+  "plywood": {
+   "name": "Plywood",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/plywood",
+   "site": "Poly Haven"
+  },
+  "red_brick_03": {
+   "name": "Red Brick 03",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/red_brick_03",
+   "site": "Poly Haven"
+  },
+  "rock_surface": {
+   "name": "Rock Surface",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/rock_surface",
+   "site": "Poly Haven"
+  },
+  "roof_slates_02": {
+   "name": "Roof Slates 02",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/roof_slates_02",
+   "site": "Poly Haven"
+  },
+  "rough_linen": {
+   "name": "Rough Linen",
+   "author": "colormass, Rico Cilliers",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/rough_linen",
+   "site": "Poly Haven"
+  },
+  "sand_01": {
+   "name": "Sand 01",
+   "author": "Rob Tuytel",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/sand_01",
+   "site": "Poly Haven"
+  },
+  "sparse_grass": {
+   "name": "Sparse Grass",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/sparse_grass",
+   "site": "Poly Haven"
+  },
+  "thatch_roof_angled": {
+   "name": "Thatch Roof Angled",
+   "author": "Rob Tuytel, Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/thatch_roof_angled",
+   "site": "Poly Haven"
+  },
+  "weathered_plank_siding": {
+   "name": "Weathered Plank Siding",
+   "author": "Dimitrios Savva",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/weathered_plank_siding",
+   "site": "Poly Haven"
+  },
+  "white_stucco": {
+   "name": "White Stucco",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/white_stucco",
+   "site": "Poly Haven"
+  },
+  "wood_planks": {
+   "name": "Wood Planks",
+   "author": "Amal Kumar",
+   "license": "CC0 1.0",
+   "url": "https://polyhaven.com/a/wood_planks",
+   "site": "Poly Haven"
+  }
+ },
+ "tiles": {
+  "asphalt": {
+   "index": 0,
+   "repeat": 2,
+   "variants": [
+    1,
+    2
+   ],
+   "sources": [
+    "asphalt_04"
+   ]
+  },
+  "runway": {
+   "index": 3,
+   "repeat": 2,
+   "variants": [
+    4
+   ],
+   "sources": [
+    "clean_asphalt"
+   ]
+  },
+  "concrete": {
+   "index": 5,
+   "repeat": 2,
+   "variants": [
+    6
+   ],
+   "sources": [
+    "concrete_floor_02"
+   ]
+  },
+  "sidewalk": {
+   "index": 7,
+   "repeat": 2,
+   "variants": [
+    8,
+    9
+   ],
+   "sources": [
+    "concrete_floor_02"
+   ]
+  },
+  "sand": {
+   "index": 10,
+   "repeat": 2,
+   "variants": [
+    11,
+    12
+   ],
+   "sources": [
+    "sand_01"
+   ]
+  },
+  "dirt": {
+   "index": 13,
+   "repeat": 2,
+   "variants": [
+    14,
+    15
+   ],
+   "sources": [
+    "dirt"
+   ]
+  },
+  "path": {
+   "index": 16,
+   "repeat": 2,
+   "variants": [
+    17
+   ],
+   "sources": [
+    "park_dirt"
+   ]
+  },
+  "mud": {
+   "index": 18,
+   "repeat": 2,
+   "variants": [
+    19
+   ],
+   "sources": [
+    "brown_mud_02"
+   ]
+  },
+  "gravel": {
+   "index": 20,
+   "repeat": 2,
+   "variants": [
+    21
+   ],
+   "sources": [
+    "gravel_floor_02"
+   ]
+  },
+  "stone": {
+   "index": 22,
+   "repeat": 2,
+   "variants": [
+    23
+   ],
+   "sources": [
+    "rock_surface"
+   ]
+  },
+  "cobble": {
+   "index": 24,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "cobblestone_floor_08"
+   ]
+  },
+  "granite": {
+   "index": 25,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "granite_tile_03"
+   ]
+  },
+  "limestone": {
+   "index": 26,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "large_sandstone_blocks_01"
+   ]
+  },
+  "marble": {
+   "index": 27,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "marble_01"
+   ]
+  },
+  "counter_top": {
+   "index": 28,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "marble_01"
+   ]
+  },
+  "mossy_stone_top": {
+   "index": 29,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "mossy_rock"
+   ]
+  },
+  "mossy_stone": {
+   "index": 30,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rock_surface",
+    "mossy_rock"
+   ]
+  },
+  "grass_top": {
+   "index": 31,
+   "repeat": 2,
+   "variants": [
+    32,
+    33
+   ],
+   "sources": [
+    "leafy_grass"
+   ]
+  },
+  "fairway": {
+   "index": 34,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "leafy_grass"
+   ]
+  },
+  "putting": {
+   "index": 35,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "sparse_grass"
+   ]
+  },
+  "grass_side": {
+   "index": 36,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "dirt",
+    "leafy_grass"
+   ]
+  },
+  "seagrass": {
+   "index": 37,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "sand_01",
+    "leafy_grass"
+   ]
+  },
+  "farmland": {
+   "index": 38,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "dry_mud_field_001"
+   ]
+  },
+  "line_white": {
+   "index": 39,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "asphalt_04"
+   ]
+  },
+  "line_yellow": {
+   "index": 40,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "asphalt_04"
+   ]
+  },
+  "helipad": {
+   "index": 41,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "concrete_floor_02"
+   ]
+  },
+  "court_green": {
+   "index": 42,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "clean_asphalt"
+   ]
+  },
+  "court_blue": {
+   "index": 43,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "clean_asphalt"
+   ]
+  },
+  "court_red": {
+   "index": 44,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "clean_asphalt"
+   ]
+  },
+  "court_line": {
+   "index": 45,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "clean_asphalt"
+   ]
+  },
+  "stucco_white": {
+   "index": 46,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_pink": {
+   "index": 47,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_teal": {
+   "index": 48,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_yellow": {
+   "index": 49,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_peach": {
+   "index": 50,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "red_stucco": {
+   "index": 51,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "police_blue": {
+   "index": 52,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_cream": {
+   "index": 53,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_ochre": {
+   "index": 54,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_lavender": {
+   "index": 55,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_mint": {
+   "index": 56,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "stucco_sky": {
+   "index": 57,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "white_stucco"
+   ]
+  },
+  "brick": {
+   "index": 58,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "red_brick_03"
+   ]
+  },
+  "brick_dark": {
+   "index": 59,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "dark_brick_wall"
+   ]
+  },
+  "brick_tan": {
+   "index": 60,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "red_brick_03"
+   ]
+  },
+  "castle_stone": {
+   "index": 61,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "castle_brick_02_white"
+   ]
+  },
+  "pool_tile": {
+   "index": 62,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "blue_floor_tiles_01"
+   ]
+  },
+  "tile_floor": {
+   "index": 63,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "checkered_pavement_tiles"
+   ]
+  },
+  "roof_tile": {
+   "index": 64,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "clay_roof_tiles_02"
+   ]
+  },
+  "slate_roof": {
+   "index": 65,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "roof_slates_02"
+   ]
+  },
+  "shingle_brown": {
+   "index": 66,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "grey_roof_tiles"
+   ]
+  },
+  "shingle_grey": {
+   "index": 67,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "grey_roof_tiles"
+   ]
+  },
+  "shingle_green": {
+   "index": 68,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "grey_roof_tiles"
+   ]
+  },
+  "cedar_shingle": {
+   "index": 69,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "roof_slates_02"
+   ]
+  },
+  "copper_roof": {
+   "index": 70,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "corrugated_iron_02"
+   ]
+  },
+  "tin_roof": {
+   "index": 71,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "corrugated_iron_02"
+   ]
+  },
+  "container_red": {
+   "index": 72,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "container_blue": {
+   "index": 73,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "container_green": {
+   "index": 74,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "container_orange": {
+   "index": 75,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "container_white": {
+   "index": 76,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "container_yellow": {
+   "index": 77,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "container_side"
+   ]
+  },
+  "silo_blue": {
+   "index": 78,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "corrugated_iron_02"
+   ]
+  },
+  "shutter": {
+   "index": 79,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "painted_metal_shutter"
+   ]
+  },
+  "metal": {
+   "index": 80,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "metal_plate"
+   ]
+  },
+  "silo_stave": {
+   "index": 81,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "concrete_floor_02"
+   ]
+  },
+  "plank": {
+   "index": 82,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "wood_planks"
+   ]
+  },
+  "dark_plank": {
+   "index": 83,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "dark_wooden_planks"
+   ]
+  },
+  "dock": {
+   "index": 84,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "plank_flooring_03"
+   ]
+  },
+  "boat_deck": {
+   "index": 85,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "wood_planks"
+   ]
+  },
+  "siding_mint": {
+   "index": 86,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "siding_coral": {
+   "index": 87,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "siding_lemon": {
+   "index": 88,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "siding_sky": {
+   "index": 89,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "siding_lilac": {
+   "index": 90,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "siding_white": {
+   "index": 91,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "barn_red": {
+   "index": 92,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "weathered_plank_siding"
+   ]
+  },
+  "bark": {
+   "index": 93,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "bark_brown_02"
+   ]
+  },
+  "palm_log": {
+   "index": 94,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "palm_tree_bark"
+   ]
+  },
+  "log_wall": {
+   "index": 95,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "bark_brown_02"
+   ]
+  },
+  "lumber_side": {
+   "index": 96,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "fine_grained_wood"
+   ]
+  },
+  "lumber_top": {
+   "index": 97,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "plywood"
+   ]
+  },
+  "crate": {
+   "index": 98,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "wood_planks"
+   ]
+  },
+  "log_top": {
+   "index": 99,
+   "repeat": 2,
+   "variants": [],
+   "sources": []
+  },
+  "bark_top": {
+   "index": 100,
+   "repeat": 2,
+   "variants": [],
+   "sources": []
+  },
+  "palm_log_top": {
+   "index": 101,
+   "repeat": 2,
+   "variants": [],
+   "sources": []
+  },
+  "hay_side": {
+   "index": 102,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "thatch_roof_angled"
+   ]
+  },
+  "hay_top": {
+   "index": 103,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "thatch_roof_angled"
+   ]
+  },
+  "carpet": {
+   "index": 104,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "dirty_carpet"
+   ]
+  },
+  "awning_red": {
+   "index": 105,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rough_linen"
+   ]
+  },
+  "awning_green": {
+   "index": 106,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rough_linen"
+   ]
+  },
+  "awning_blue": {
+   "index": 107,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rough_linen"
+   ]
+  },
+  "awning_yellow": {
+   "index": 108,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rough_linen"
+   ]
+  },
+  "sofa_top": {
+   "index": 109,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "rough_linen"
+   ]
+  },
+  "coral_pink": {
+   "index": 110,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "coral_ground_02"
+   ]
+  },
+  "coral_orange": {
+   "index": 111,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "coral_ground_02"
+   ]
+  },
+  "coral_purple": {
+   "index": 112,
+   "repeat": 2,
+   "variants": [],
+   "sources": [
+    "coral_ground_02"
+   ]
+  }
+ }
+}

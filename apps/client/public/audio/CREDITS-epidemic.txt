@@ -1,0 +1,112 @@
+EPIDEMIC SOUND - audio used in VICE CRAFT (licensed via the project Epidemic Sound account)
+
+== RADIO (music) ==
+file | title | artist | Epidemic id
+radio_pop_1 | Feel the Energy | Katnip | b55be3a6-71fc-436f-a78b-8ccafad0e6d7
+radio_pop_2 | Too Late to Meet Up | House Of Say | 77317dd0-8df2-4fb2-9fb3-20d785a6d5e2
+radio_pop_3 | Happier | Mindme | 22251586-81f3-42dd-9924-701b1aeb3bd8
+radio_pop_4 | We Came to Party | Basixx | 2568fa7a-f879-3634-b197-add37677ed55
+radio_pop_5 | There's a Heatwave | Siine | 444bf554-be29-4396-a874-10cab3659adc
+radio_pop_6 | Only for Tonight | NIGHTCAP | 153c11f4-963e-42f1-95d2-654b651df23d
+radio_hiphop_1 | Gold | Damma Beatz | 9216cc87-d69b-3558-9d11-8ac22b7335c1
+radio_hiphop_2 | Olay | Azucares | f4b5e5d1-c278-4e10-91f6-dcbc011ec722
+radio_hiphop_3 | CORONATION | BLUE STEEL | 38c4a13b-fa62-4af4-b5a3-b98a8e0dd352
+radio_hiphop_4 | Flex Up (Clean Version) | Tilden Parc | fb3825ee-9d96-4b36-94ec-73f60d3bd282
+radio_hiphop_5 | Candy Man | Homebody | 6e41a1bd-1b81-4b60-866e-2ba9c9506236
+radio_hiphop_6 | Quadruple Cup | peerless | 4fd4d998-cc56-4577-be19-87a1670fa1d4
+radio_latin_1 | Mantecadito (Instrumental Version) | Lawd Ito | 2aa7b6f8-39e4-440a-bd81-6db3c2cdcf36
+radio_latin_2 | Hazme el Amor | Lu-Ni | 90145cd9-4c7c-4440-b3d2-6f6047047967
+radio_latin_3 | La Playlist de Siempre | Nico Rengifo | 99a825c7-3b20-4c4a-8429-2ca4c17317db
+radio_latin_4 | Mi Salsita | El Equipo Del Norte | b1ae46c5-ab30-408a-97da-58c4d3ca3e70
+radio_latin_5 | FEELINGS (Instrumental Version) | Alik | ef4b78a8-7c6b-4013-a94d-9b1c06047b4d
+radio_latin_6 | Sabores de Punta Cana | Master One | 9fc44f3c-6c8b-4d8b-a78b-158ebcbc6c1c
+radio_synthwave_1 | Please Rewind | Ava Low | a7c7d3e8-b4d3-4911-b4b3-ed9ce01ea63c
+radio_synthwave_2 | Breaktime | Future Joust | 1569b5c1-910d-3cab-9eca-d558a25a9664
+radio_synthwave_3 | Break the Fast | Vision Heat | 9426c021-4cb8-4a9c-a75d-cd9ec185908b
+radio_synthwave_4 | Helium Drive | ELFL | ddae29d1-964c-4cd4-a4a4-d79e7c507f82
+radio_synthwave_5 | made in taiwan | Lupus Nocte | 7922b68f-7481-4db1-bd31-a7b1b952f453
+radio_synthwave_6 | Electric Mix | Traci Bryan | e462cb93-c7be-3a64-a4aa-31ed96d5629e
+radio_house_1 | Sick Of Love | Bastien Slice | 1d5894cb-36b5-38b8-8d03-95cf2564297b
+radio_house_2 | Woodbrain | Far Orange | cf36e8ad-9d88-4e46-8c20-1ed7f0a0e956
+radio_house_3 | Loosen Up | Midnight Cycler | 73257b0d-5b58-47da-8e0a-e65f06f742d6
+radio_house_4 | Before U Go | LeDorean | 463b512d-e6cb-40ac-8036-fdfeef44f75b
+radio_house_5 | Botox | Phello | 1adcef56-fc63-4e6b-a73d-f50ca4f726e5
+radio_house_6 | Dance Right Away | Magnofield | 9f4976a1-3825-3fcd-a4d9-479343fb8aeb
+radio_smooth_1 | Let Me Be Something | Lionel Quick | 0419309b-f737-3502-9c92-ec9e077ca139
+radio_smooth_2 | Tokyo Slow Train | Sugoi | 7f02311d-9397-4516-931c-cd2c5b7cd4cf
+radio_smooth_3 | Bill Me | Ritchie Everett | a7de42cb-7ff6-44ab-bd33-dd2aec38f34d
+radio_smooth_4 | Biscuits | Colors of Illusion | b64fa70b-4b5f-452c-ac0b-519486bf6cdd
+radio_smooth_5 | After the Reign | Jerry McHoy | f9d65e0e-3ead-4a83-9958-2a59ebe19137
+radio_smooth_6 | Sunday Night Jam | The New Fools | 9cbacb04-b576-3ff6-ae25-6b4c6274acfc
+radio_rock_1 | Crooked Lines | Staffan Carlén | bd1b9277-5089-4be6-b0de-f5a0d737b3c8
+radio_rock_2 | Dare to Be a Devil (Instrumental Version) | Roof | f5fa0941-0e34-485d-a5d7-24b15ed9e662
+radio_rock_3 | Map of the Stars (Instrumental Version) | First Timer | 5ec7effe-7146-4248-b2c4-88649911849b
+radio_rock_4 | All That's Left (Instrumental Version) | Ingrid Witt | b94458f3-f930-4b1a-b4a3-5a9e9eb2d0d0
+radio_rock_5 | White Light (Instrumental Version) | The Foundling | 3d09bc11-e039-4b28-8306-75ef662631a5
+radio_rock_6 | I Need A Remedy | Of Men And Wolves | 4c27c485-344a-3c8f-8837-f7f0a32055da
+
+== SOUND EFFECTS ==
+id | Epidemic title | Epidemic id
+car_door_open | Vehicles, Door, Car, Open, External | 5c044cef-f909-473e-95ae-36c009f3c787
+car_door_close | Vehicles, Door, Car, SUV, Close, External 01 | 2dc67f58-54b2-4aea-9673-6b392e6a1b46
+engine_start | Vehicles, Car, Renault Clio 2009, Turn On, Idle, Turn, Off, Engine Perspective (start section) | 493e5a30-25a4-4bcb-9341-a570ebb3703e
+engine_stop | Vehicles, Car, Renault Clio 2009, Turn On, Idle, Turn, Off, Engine Perspective (turn-off section) | 493e5a30-25a4-4bcb-9341-a570ebb3703e
+gear_shift | Vehicles, Mechanism, Car, Interior, Gear Shift | 26ca4523-aa7e-4de6-9114-7814d4637e1c
+brake_squeal | Vehicles, Brake, Car, Tire Squeal, Brake Skid 03 | 353bbd52-27b5-4d42-bc2a-e77c6c84cc14
+crash_light | Destruction, Crash & Debris, Car Destruction, Medium Heavy, Metal Rod Hits Hood, Parts, Trash Debris | db403ba7-2c5a-4b54-9a2a-1268bc4ca22c
+crash_heavy | Destruction, Crash & Debris, Car Crash, Heavy 02 | 5390d6cc-687f-4aa0-8e0d-eae095ac2d4b
+metal_scrape | Metal, Friction, Scrape, Plate Or Panel | 3175bafc-c980-48f1-a647-aa5dbc8d5d57
+tire_skid_short | Car, Brake, Tire, Skid 04 | d59a2ad0-f91d-44b8-abae-4a38eda66250
+turbo_whoosh | Swooshes, Whoosh, Airy, Long (used as turbo whoosh) | 1fe56284-5624-45a1-978c-66977bf690ca
+car_alarm | Vehicles, Alarm, Alfa Romeo 156 2003, Large, Family Car, Alarm | f5c7f78b-48d1-4eb2-a639-aa3d998cab00
+boat_horn | Boats, Horn, Large Horn | 64263993-994b-4b92-8471-9fa35d269a04
+wind_speed | Wind, Designed, Phoebe Wind, Loop 01 | f83ff7cc-f097-4522-80b6-fc30c0e6e704
+gun_reload | Bullets, Shell, Pistol Bullet, Reload, Magazine, Modern, Slide In 01 | 37d909ca-65fa-44a2-8b04-8b730e37ac75
+gun_empty | Guns, Mechanism, Walther P38, Semi Automatic Pistol, Dry Fire | 2f92ddf9-86f9-48db-b219-40d47d393e07
+shell_casing | Bullets, Shell, Drop, 50 Caliber 01 | 44b39d3d-c1c1-493b-9432-c483d47420b4
+bullet_impact_concrete | Bullets, Impact, Concrete, Brick | 3ba1e7b5-66b7-4e0b-8afc-2ce2fd7b524d
+bullet_impact_metal | Bullets, Impact, Hit, Metal 02 | 9094eab3-a0c2-4e9e-9305-f3799e78d4d6
+bullet_impact_flesh | Bullets, Impact, Hit, Body, Flesh 03 | 21834ce0-138e-45bd-841c-5ca879e3fdf6
+ricochet | Bullets, Ricochet, Classic, Tonal | 84153f36-d609-4808-afeb-2036545f17e5
+bullet_whiz | Bullets, By, Fast, Flying Item Pass By 01 | 3a080f47-aba7-4bd7-9ed6-8b2db584ea24
+explosion | Explosions, Misc, Bomb, Explosion, Small, Bang, Detonation 02 + Designed, Boom, Low Hit (layered) | d855f778-e584-4b1d-8201-ab31dcea9700
+body_fall | Fight, Bodyfall, Body Fall Ground, Impact 02 | 4c6c238e-b848-4151-8570-aec84a060f49
+hurt_grunt | Voices, Male, Hurt, Combat, Damaged, Pain 03 | 5bcc2b2c-1d0d-4477-9e82-f0a5e27bc924
+heartbeat | Human, Heartbeat, Designed, Heartbeats, Loopable 01 | 350568f4-475a-4039-af56-702b1262f305
+wasted | Designed, Boom, Impact, Dark, Cinematic, Low HIt | d106e784-e06e-4673-ae48-a36e145a715d
+busted | Designed, Stinger, Impact, Hit, Dark, Distorted, Horror | 378f93c7-bed7-4bca-b309-b2e4e704b3ad
+underwater | Ambience, Underwater, Water Flow 01 | e3814900-5881-47c9-99a6-33fa4a50da28
+big_splash | Water, Splash, Child Jump Into Pool, Straight Jump 01 | 84512149-bf27-4f8b-a69e-c798585d043b
+swim_stroke | Water, Movement, Swimming, Swimmer, Movement In Water 02 | 03f5746a-d70b-499b-8d2f-effbee1fb5f9
+water_climb_out | Water, Splash, Pool, Big Surfacing Movements, Splash And Drip | 07b5ba0b-4d40-4e5d-bc5c-1837601173b1
+crowd_chatter | Ambience, Market, Walking Street, Crowded, Voices, Walla, Thailand 02 (AmbiX B) | 37c69978-0dac-4657-942e-88f2eb979ddb
+seagulls | Ambience, Seaside, Beach, Many Seagulls, Distant Low Waves | 050315d6-871c-444e-ad04-bbda17ba82e1
+birds_park | Ambience, Park, Birds, Calm, City Hum | 0dfe0078-4495-4c93-b475-6a5c10010fe3
+distant_sirens | Vehicles, Siren, Police Siren, Distant | 3ee522b6-0203-4fcb-9596-72f34b22b21a
+police_radio | Voices, Futzed, Walkie Talkie, Police Radio, Conversation, Between Dispatch And Officer | fc42f277-ffb5-451d-b4d5-12aaa1efaa1b
+helicopter | Aircraft, Helicopter, Chopper. Standing Still, Close, Loop | cf93bd14-0ad1-4e13-82d4-adeeb02c2d5c
+plane_flyover | Aircraft, Jet, Plane, Pass Overhead 02 | 1b3d79ef-c74b-409b-8118-b36f46e332e9
+dog_bark | Animals, Dog, Labradoodle, Bark, Single | 105b4f29-b86f-445e-8569-53c468d1fc2d
+construction | Ambience, Construction, Construction Site, Hammer, Drill, Medium Size, Egypt 01 | c5da5559-7ca3-44d5-b1fc-5727efd8c8ac
+fountain | Water, Fountain, Constant, Outdoor | 6050787a-3af6-4170-83b8-be026dce7759
+traffic_distant | Ambience, Urban, City, Hum, Distant Traffic, Rumble, Walla | e825d157-4017-4cdd-a304-4338cb69f48b
+cash_register | Cash Register, Kaching, Money | 6caad476-d3e4-44ad-afa1-1e9187c46bd0
+coins | Games, Video, Event, Collect Coin, Bell Like | d4f49e36-4e07-423f-ba9d-a153622e4c24
+door_creak | Doors, Creak, Tattoo Parlour, Creaky Door, Slow Creak | 9ced1037-881c-4fd2-9596-e8d66c86f75f
+phone_open | User Interface, Beep, Smartphone, Lock Screen, Unlock, Designed 21 | 214a779a-8e57-4783-9b6d-75d9b1f9dc13
+phone_close | User Interface, Beep, Smartphone, Lock Screen, Unlock, Designed 14 | 799f7613-5818-4e63-80d8-52438ac32143
+phone_tap | User Interface, Click, UI Buttons, Glassy, Touch | 45c94b43-2fb0-4970-98db-cc0fe6ea3678
+radio_static | Communications, Radio, Tuning Between Stations, Static 01 | a948c9c5-94c0-48e9-8311-84ce4de9c922
+wheel_whoosh | Designed, Whoosh, Soft Resonant | 3eb43b90-168b-404b-b6c2-28c69e53754b
+ui_back | User Interface, Click, UI Buttons, Select, Previous | d2ed6a8c-9424-46ab-8f6d-0a1978c3fcdf
+ui_error | User Interface, Alert, Error, Buzz 02 | 22b1439b-9243-46e5-afba-1368aafe4ecf
+rep_up | User Interface, Alert, Notification, Achievement, Level Up, Power Up, Positive, Happy, Short 01 | 08c9ca48-3ea5-4834-83de-c71687415c1e
+mission_start | Designed, Stinger, Dark Impact, Hit, Short, Fast, Tonal Pulse, Abstract, Scifi 02 | 378255a2-bd11-4d58-99e6-7a895b90c090
+objective | User Interface, Alert, Tonal, Soft Confirm Chime | ca606dde-a0ba-4749-beb3-40e412003ce6
+bag_pickup | Objects, Bag, Backpack Drop On Floor | 01f1f190-b92d-41e9-bed6-cc326c3386fa
+zipper | Objects, Zipper, Bag, Camera Bag, Zipper Movements | 8ec122b9-90aa-4041-bdbd-91cb6d95b956
+keypad_beep | Beeps, Appliance, Microwave, Button Press With Beep | d4e67525-f80d-4680-8a52-bddfe80c97f6
+hack_beep | User Interface, Data, Computer, Futuristic, Data Processing, Loading 31 | 53aee1a4-8836-46ed-88e7-b1a04550915f
+safe_dial | Mechanical, Click, Heating Thermostat, Dial Turn (used as safe dial) | 078fcf44-6484-4e6f-8123-c465274b6178
+vault_door | Doors, Dungeon, Medieval Door, Heavy, Close 02 (used as vault door) | afaed7be-2b12-4104-a8bd-540d23fca4ea
+cash_counting | Paper, Handle, Money, Notes, Count For Hand | 6608109b-7aff-41f3-9421-2e5999cdd5d8
