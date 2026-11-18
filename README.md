@@ -19,7 +19,7 @@
 | ![Cutscene](docs/images/cutscene.jpg) | ![South Beach](docs/images/south-beach.jpg) |
 | ![Map](docs/images/map.jpg) | ![Cars](docs/images/cars.jpg) |
 
-## Run it locally
+## Play or run it yourself
 
 Needs Node.js 22+.
 
@@ -28,7 +28,9 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5420. The server runs on port 5421 with a built-in database, so no setup is needed. `npm test` runs the multiplayer tests.
+This starts the game and its server with a built-in database, so no setup is needed. `npm test` runs the multiplayer tests.
+
+Just want to play? It's live at **[vice-craft.vercel.app](https://vice-craft.vercel.app)**.
 
 **Stack:** TypeScript, three.js, React, Node.js WebSockets, PostgreSQL. Layout: `apps/client`, `apps/server`, `packages/shared`. Deploy notes are in [docs/OPERATIONS.md](docs/OPERATIONS.md).
 
